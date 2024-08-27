@@ -18,7 +18,7 @@
         scrollToElement: function (element) {
             let top = element.offsetTop
             let currentTop = window.scrollY  //当前高度
-            let targetTop = top - 80   //目标高度
+            let targetTop = top - 110   //目标高度
             let s = targetTop - currentTop //每次动画移动的距离 
             var coords = { y: currentTop }; // Start at (0, 0)  起始位置
             var t = Math.abs((s / 100) * 300) //求绝对值   时间
